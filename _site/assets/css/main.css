@@ -300,8 +300,8 @@ code.highlighter-rouge {
   font-style: normal;
   font-weight: 400;
   font-display: auto;
-  src: url("/hitchens/assets/fonts/eb-garamond-v9-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local("EB Garamond Regular"), local("EBGaramond-Regular"), url("/hitchens/assets/fonts/eb-garamond-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("/hitchens/assets/fonts/eb-garamond-v9-latin-regular.woff2") format("woff2"), url("/hitchens/assets/fonts/eb-garamond-v9-latin-regular.woff") format("woff"), url("/hitchens/assets/fonts/eb-garamond-v9-latin-regular.ttf") format("truetype"), url("/hitchens/assets/fonts/eb-garamond-v9-latin-regular.svg#EBGaramond") format("svg"); /* Legacy iOS */
+  src: url("/assets/fonts/eb-garamond-v9-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("EB Garamond Regular"), local("EBGaramond-Regular"), url("/assets/fonts/eb-garamond-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/eb-garamond-v9-latin-regular.woff2") format("woff2"), url("/assets/fonts/eb-garamond-v9-latin-regular.woff") format("woff"), url("/assets/fonts/eb-garamond-v9-latin-regular.ttf") format("truetype"), url("/assets/fonts/eb-garamond-v9-latin-regular.svg#EBGaramond") format("svg"); /* Legacy iOS */
 }
 body {
   background: #ffb627;
@@ -394,7 +394,7 @@ hr {
   width: 152px;
   height: 12px;
   margin: 0.5em auto 0;
-  background: url(/hitchens/assets/images/divider.svg) no-repeat top center;
+  background: url(/assets/images/divider.svg) no-repeat top center;
   margin: 4em 0;
 }
 
@@ -424,7 +424,7 @@ figcaption {
   width: 152px;
   height: 12px;
   margin: 0.5em auto 0;
-  background: url(/hitchens/assets/images/divider.svg) no-repeat top center;
+  background: url(/assets/images/divider.svg) no-repeat top center;
 }
 
 .home {
@@ -717,7 +717,7 @@ figcaption {
   width: 152px;
   height: 12px;
   margin: 0.5em auto 0;
-  background: url(/hitchens/assets/images/divider.svg) no-repeat top center;
+  background: url(/assets/images/divider.svg) no-repeat top center;
   margin: 4em auto;
 }
 
