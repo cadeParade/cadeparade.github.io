@@ -1,0 +1,32 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+
+# bin/test-debug script output
+test.log
+
+# dependencies
+/node_modules
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log*
+yarn-error.log
+testem.log
+.DS_Store
+
+# ember-try
+.node_modules.ember-try/
+package.json.ember-try
+
+# sublime files
+*.sublime-workspace
+*.sublime-project
+
+# Visual Studio Code files
+.vscode/

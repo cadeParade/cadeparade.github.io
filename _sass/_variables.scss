@@ -1,0 +1,20 @@
+// $brand-color:         #a5ffd6;
+// $brand-color:         #f4d35e;
+// $brand-color:         #e6beae; // dusty rose
+// $brand-color:         #ffddd2;
+// $brand-color:         #ffb4a2;
+// $brand-color:         #ffcdb2;
+// $brand-color:         #f7ede2;
+$brand-color:         #ffb627;
+// $brand-color:         #f5cac3;
+$highlight:           lighten($brand-color, 35%);
+$text-color:          #0b0404;
+$muted-text-color:    #645e4b;
+$font-family:         "EB Garamond", Garamond, "Times New Roman", serif;
+
+$on-bigphone:         375px;
+$on-tablet:           768px;
+$on-laptop:           960px;
+$on-desktop:          1200px;
+
+
