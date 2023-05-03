@@ -20,13 +20,17 @@ yarn-error.log
 testem.log
 .DS_Store
 
-# ember-try
-.node_modules.ember-try/
-package.json.ember-try
-
 # sublime files
 *.sublime-workspace
 *.sublime-project
 
 # Visual Studio Code files
 .vscode/
+
+
+*.gem
+.bundle
+.sass-cache
+.jekyll-cache
+_site
+Gemfile.lock
