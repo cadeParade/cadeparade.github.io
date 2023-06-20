@@ -12,7 +12,7 @@ title: Public Work
 
   <div id="percy-visual-engine-overview" class="section">
     <h3>Percy Visual Engine Overview</h3>
-    <iframe width="576" height="315" src="https://www.youtube.com/embed/9X-1BToA2Iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="576" height="315" src="https://www.youtube.com/embed/9X-1BToA2Iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="youtube-embed"></iframe>
     <p class="video-caption">In this <a href="https://www.browserstack.com/webinars/percy-visual-engine-pt">webinar</a> I cover the new (at the time) changes to the Percy visual diffing algorithm. As the main and sole developer on this project, I planned, developed, shipped, and iterated on all the features covered in this talk. I also designed the content and slides for this talk.</p>
   </div>
 
@@ -40,7 +40,7 @@ title: Public Work
       <div class="video-block">
         <a href="https://embermap.com/video/accessing-metadata-from-ember-data-s-findrecord-method">Accessing Metadata from Ember Data's `findRecord` Method</a>
         <br>
-        <video controls width="576" poster="https://embermap.imgix.net/public/images/25919378-6c1a-498a-bc12-865cc32f3b70/poster.png?auto=format%2Ccompression&dpr=2&w=560">
+        <video controls width="100%" poster="https://embermap.imgix.net/public/images/25919378-6c1a-498a-bc12-865cc32f3b70/poster.png?auto=format%2Ccompression&dpr=2&w=560">
           <source src="https://d19c50bha6zcb3.cloudfront.net/encodes/1130-e0f63f4b-bf6d-4f63-8c8f-22e1201bff1d.mp4" type="video/mp4" >
         </video>
         <p class="video-caption">Sometimes you need to retrieve some metadata from an API response returning a single item. Seems straightforward, but there is actually no built-in way to do this with ember-data. This video shows you how.</p>
@@ -48,7 +48,7 @@ title: Public Work
 
       <div class="video-block">
         <a href="https://embermap.com/video/testing-loading-states">Testing loading states</a>
-        <video controls width="576" poster="https://embermap.imgix.net/public/images/1f3851eb-c45d-42d7-982c-2b941bebb275/Frame-1.png?auto=format%2Ccompression&dpr=2&w=560">
+        <video controls width="100%" poster="https://embermap.imgix.net/public/images/1f3851eb-c45d-42d7-982c-2b941bebb275/Frame-1.png?auto=format%2Ccompression&dpr=2&w=560">
             <source src="https://d19c50bha6zcb3.cloudfront.net/encodes/1085-20711769-3e45-4680-ae94-346ed7ef16b8.mp4" type="video/mp4">
         </video>
         <p class="video-caption">Loading states are important indicators for your users, but can be difficult to check in automated tests. In Ember, acceptance tests automatically wait for all pending requests to finish before moving to the next line, making it hard to look at an interim state. This video shows how we can pause acceptance tests in the middle of a network request to make sure everything looks good during the crucial loading state.</p>
